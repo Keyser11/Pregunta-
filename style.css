@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url('M33.jpg');
+}
+
+p {
+    font-size: xx-large;
+   padding: 7%;
+   color: aliceblue;
+} 
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 1em;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    font-family: Comic Sans Ms, arial, verdana;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0%);
+}
+
+#noBtn {
+    position: absolute;
+    /* top: -50%;
+    left: 0%;
+    transform: traslate(0%, -50%); */
+}
+body{
+    font-family: Comic Sans Ms, arial, verdana;
+}
